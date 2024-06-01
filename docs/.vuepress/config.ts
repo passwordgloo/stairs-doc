@@ -10,12 +10,12 @@ export default defineUserConfig({
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh-CN',
-      title: '阶墀文库',
-      description: '登山岳者，然后知蹊径之崎岖。 ',
+      title: 'vuepress-reco',
+      description: '一款简洁的 vuepress 博客 & 文档 主题。',
     },
     '/en/': {
       lang: 'en-US',
-      title: 'stairs-doc',
+      title: 'vuepress-reco',
       description: 'A simple vuepress Blog & Doc theme.',
     },
   },

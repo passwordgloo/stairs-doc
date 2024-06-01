@@ -2,7 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import { recoTheme } from 'vuepress-theme-reco'
 import { themeConfig } from './config/index'
 import { viteBundler } from '@vuepress/bundler-vite'
-import { webpackBundler } from '@vuepress/bundler-webpack'
+// import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
   locales: {
@@ -10,12 +10,12 @@ export default defineUserConfig({
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh-CN',
-      title: 'vuepress-reco',
-      description: '一款简洁的 vuepress 博客 & 文档 主题。',
+      title: '阶墀文库',
+      description: '登山岳者，然后知蹊径之崎岖。 ',
     },
     '/en/': {
       lang: 'en-US',
-      title: 'vuepress-reco',
+      title: 'stairs-doc',
       description: 'A simple vuepress Blog & Doc theme.',
     },
   },

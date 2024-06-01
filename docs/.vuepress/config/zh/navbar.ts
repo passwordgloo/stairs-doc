@@ -1,45 +1,45 @@
 export const navbar = [
-  { text: '指南', link: '/docs/guide/introduce', icon: 'Compass' },
+  { text: '首页', link: '/', icon: 'Home' },
   {
-    text: '参考',
-    icon: 'Document',
+    text: '教育',
+    icon: 'Compass',
     children: [
-      {
-        text: '配置',
-        children: [
-          {
-            text: 'Vuepress 配置',
-            link: 'https://v2.vuepress.vuejs.org/zh/reference/config.html',
-          },
-          { text: 'Frontmatter', link: '/docs/theme/frontmatter-home' },
-          { text: '主题配置', link: '/docs/theme/home' },
-          { text: 'Markdown 扩展', link: '/docs/theme/custom-container' },
-          { text: '其他', link: '/docs/theme/custom-style' },
-        ],
-      },
-      {
-        text: '插件',
-        children: [
-          { text: 'page', link: '/docs/plugins/page' },
-          { text: 'comments', link: '/docs/plugins/comments' },
-          { text: 'vue-previews', link: '/docs/plugins/vue-previews' },
-          { text: 'bulletin-popover', link: '/docs/plugins/bulletin-popover' },
-        ],
-      },
-    ],
+      { text: '教育学原理', link: '/blogs/education/principle1' },
+      { text: '中国教育史', link: '/blogs/education/china1' },
+      { text: '外国教育史', link: '/blogs/education/foreign1' },
+      { text: '发展心理学', link: '/blogs/education/psychology1' },
+    ]
   },
   {
-    text: '版本',
+    text: '政治',
     icon: 'SubVolume',
     children: [
-      { text: '2.x(rc)', link: 'https://vuepress-theme-reco.recoluan.com/' },
-      {
-        text: '1.x',
-        link: 'http://v1.vuepress-reco.recoluan.com/views/1.x/',
-      },
+      { text: '马克思主义原理', link: '/blogs/politics/principle1' },
+      { text: '毛中特', link: '/blogs/politics/mzdzt1' },
+      { text: '政治经济学', link: '/blogs/politics/economic1' },
+      { text: '道德法治', link: '/blogs/politics/law1' },
+      { text: '中国近代史', link: '/blogs/politics/history1' },
+      { text: '中共党史', link: '/blogs/politics/partyhistory1' },
+    ]
+  },
+  {
+    text: '公仆',
+    icon: 'Document',
+    children: [
+      // { text: '法律基础', link: '/docs/law' },
+      { text: '常识', link: '/docs/affair/common1' },
+      { text: '行测', link: '/docs/affair/ability1' },
+      { text: '时政', link: '/docs/affair/current1' },
+      { text: '申论', link: '/docs/affair/paper1' },
     ],
   },
-  { text: '博客', link: '/posts', icon: 'DocumentAttachment' },
-  { text: '案例', link: '/docs/others/examples', icon: 'Fire' },
-  { text: '留言板', link: '/docs/message-board', icon: 'Chat' },
+  {
+    text: '社工',
+    icon: 'Chat',
+    children: [
+      { text: '招聘', link: '/docs/social/job1' },
+      { text: '综合能力', link: '/docs/social/comprehensive1' },
+      { text: '实务', link: '/docs/social/work1' },
+    ],
+  },
 ]

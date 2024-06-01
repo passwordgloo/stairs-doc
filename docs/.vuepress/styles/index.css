@@ -1,0 +1,248 @@
+html {
+  cursor: url(/light/pointer.cur), pointer;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+h3::after {
+  content: '';
+  display: block;
+  width: 5rem;
+  height: .3rem;
+  margin-top: .4rem;
+  background-color: tomato;
+  border-radius: .5rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.43;
+  border-bottom: 1px dashed tomato;
+}
+
+h5 {
+  color: tomato;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+h5:hover {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-1rem);
+  }
+  60% {
+    transform: translateY(-1rem);
+  }
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table {
+  margin: 0.8em 0;
+}
+
+hr {
+  height: 2px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: tomato;
+  border: 0 none;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+
+li p.first {
+  display: inline-block;
+}
+
+ul,
+ol {
+  padding-left: 30px;
+}
+
+ul:first-child,
+ol:first-child {
+  margin-top: 0;
+}
+
+ul:last-child,
+ol:last-child {
+  margin-bottom: 0;
+}
+
+li::marker {
+  color: tomato;
+}
+
+blockquote {
+  border: 8px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: linear-gradient(to right, #596164, #868f96), linear-gradient(90deg, #596164, #868f96);
+  color: white;
+}
+
+blockquote img {
+  display: inline-block;
+  position: relative;
+  transform: translateX(-3px);
+  vertical-align: middle;
+  height: 1rem;
+  margin-right: .2rem;
+  overflow: hidden;
+}
+
+h2 + blockquote, blockquote[alt="orange"] {
+  border: 8px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: linear-gradient(to right, #fc6076, #ff9a44), linear-gradient(90deg, #fc6076, #ff9a44);
+  color: white;
+}
+
+h2 + blockquote img, blockquote[alt="orange"] img {
+  display: inline-block;
+  position: relative;
+  transform: translateX(-3px);
+  vertical-align: middle;
+  height: 1rem;
+  margin-right: .2rem;
+  overflow: hidden;
+}
+
+h3 + blockquote, blockquote[alt="blue"] {
+  border: 8px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: linear-gradient(to right, #4481eb, #04befe), linear-gradient(90deg, #4481eb, #04befe);
+  color: white;
+}
+
+h3 + blockquote img, blockquote[alt="blue"] img {
+  display: inline-block;
+  position: relative;
+  transform: translateX(-3px);
+  vertical-align: middle;
+  height: 1rem;
+  margin-right: .2rem;
+  overflow: hidden;
+}
+
+h4 + blockquote, blockquote[alt="purple"] {
+  border: 8px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: linear-gradient(to right, #8F41E9, #578AEF), linear-gradient(90deg, #8F41E9, #578AEF);
+  color: white;
+}
+
+h4 + blockquote img, blockquote[alt="purple"] img {
+  display: inline-block;
+  position: relative;
+  transform: translateX(-3px);
+  vertical-align: middle;
+  height: 1rem;
+  margin-right: .2rem;
+  overflow: hidden;
+}
+
+h5 + blockquote, blockquote[alt="green"] {
+  border: 8px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: linear-gradient(to right, #0ba360, #8ed451), linear-gradient(90deg, #0ba360, #8ed451);
+  color: white;
+}
+
+h5 + blockquote img, blockquote[alt="green"] img {
+  display: inline-block;
+  position: relative;
+  transform: translateX(-3px);
+  vertical-align: middle;
+  height: 1rem;
+  margin-right: .2rem;
+  overflow: hidden;
+}
+
+.dropdown-wrapper, a.nav-link, .repo-link, .outlook-icon {
+  cursor: url(/light/link.cur), auto;
+}
+
+html[data-theme=dark] {
+  cursor: url(/dark/pointer.cur), auto;
+}
+
+html[data-theme=dark] blockquote {
+  border: 8px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+.logo, .site-name, span[property=headline] {
+  cursor: url(/dark/link.cur), auto;
+}
+
+code {
+  padding: .3rem;
+  margin-right: .4em;
+  color: tomato;
+  border-radius: 4px;
+}
+
+kbd {
+  padding: .3rem;
+  margin-right: .4em;
+  color: tomato;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0 3px 0 tomato;
+}
+
+em {
+  font-style: normal;
+  border-bottom: 4px dotted tomato;
+}
+
+u {
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+  text-decoration-color: tomato;
+}
+
+strong {
+  color: tomato;
+}
+
+/* -----------------------editor------------------------ */
+::-moz-selection {
+  background: tomato;
+  color: #fff;
+  text-shadow: none;
+}
+
+*.in-text-selection,
+::selection {
+  background: tomato;
+  color: #fff;
+  text-shadow: none;
+}

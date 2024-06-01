@@ -4,6 +4,7 @@ export const series = {
   '/blogs/education/': [
     {
       text: '教育学原理',
+      collapsible: true,
       children: [
         'principle1',
         'principle2',
@@ -20,6 +21,7 @@ export const series = {
     },
     {
       text: '中国教育史',
+      collapsible: true,
       children: [
         'china1',
         'china2',
@@ -37,6 +39,7 @@ export const series = {
     },
     {
       text: '外国教育史',
+      collapsible: true,
       children: [
         'foreign1',
         'foreign2',
@@ -64,6 +67,7 @@ export const series = {
   '/blogs/politics/': [
     {
       text: '马克思主义原理',
+      collapsible: true,
       children: [
         'principle1',
         'principle2',
@@ -79,6 +83,7 @@ export const series = {
     },
     {
       text: '毛中特',
+      collapsible: true,
       children: [
         'mzdzt1',
         'mzdzt2',
@@ -103,6 +108,7 @@ export const series = {
     },
     {
       text: '政治经济学',
+      collapsible: true,
       children: [
         'economic1',
         'economic2',
@@ -112,6 +118,7 @@ export const series = {
     },
     {
       text: '思想道德修养',
+      collapsible: true,
       children: [
         'law1',
         'law2',
@@ -124,6 +131,7 @@ export const series = {
     },
     {
       text: '中国近代史纲要',
+      collapsible: true,
       children: [
         'history1',
         'history2',
@@ -139,6 +147,7 @@ export const series = {
     },
     {
       text: '中共党史',
+      collapsible: true,
       children: [
         'partyhistory1',
         'partyhistory2',

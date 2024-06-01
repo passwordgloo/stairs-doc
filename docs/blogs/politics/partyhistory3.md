@@ -28,9 +28,10 @@ icon: calendar-days
 
 ### 三湾改编<span alt="blue">1927.9.29</span>
 
-> [!tip]
->
-> 确立党对军队的绝对领导
+::: tip
+确立党对军队的绝对领导
+
+:::
 
 ## 中共六大<span alt="black">1928</span>
 

@@ -14,7 +14,11 @@ icon: stamp
 
 ## 毛泽东思想形成发展的过程 <Badge text="选择题" type="tip" />
 
-> ![](/badge/link.svg)阅览[毛泽东部分著作](https://www.marxists.org/chinese/maozedong/index.htm)
+::: info
+
+阅览[毛泽东部分著作](https://www.marxists.org/chinese/maozedong/index.htm)
+
+:::
 
 | 时期                               | 形成过程 | 毛泽东代表著作                                               |
 | ---------------------------------- | -------- | ------------------------------------------------------------ |

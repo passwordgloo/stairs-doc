@@ -3,4 +3,4 @@ title: 工作报告
 icon: person-chalkboard
 ---
 
-<PDF url="/pdf/report.pdf" height="75rem" viewer/>
+[【腾讯文档】report.pdf](https://docs.qq.com/pdf/DRVFWZmFxYlBaeGhE)

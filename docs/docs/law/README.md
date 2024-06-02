@@ -3,4 +3,4 @@ icon: scale-balanced
 title: 法律基础
 ---
 
-<PDF url="/pdf/law.pdf" height="75rem" viewer/>
+[【腾讯文档】law.pdf](https://docs.qq.com/pdf/DRUVoT1dJdU5vTm5a)

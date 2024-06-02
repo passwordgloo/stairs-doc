@@ -3,4 +3,5 @@ title: 人文常识
 icon: tags
 ---
 
-<PDF url="/pdf/common.pdf" height="75rem" viewer/>
+[【腾讯文档】人文常识.pdf](https://docs.qq.com/pdf/DRUpkYVFGa3BMdnNX)
+

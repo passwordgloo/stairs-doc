@@ -3,4 +3,4 @@ title: 申论
 icon: pen-to-square
 ---
 
-<PDF url="/pdf/pen.pdf"  height="75rem"/>
+[【腾讯文档】pen.pdf](https://docs.qq.com/pdf/DRXFQUnZvYnlzclJn)

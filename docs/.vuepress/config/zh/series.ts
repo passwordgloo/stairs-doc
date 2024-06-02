@@ -67,7 +67,6 @@ export const series = {
   '/blogs/politics/': [
     {
       text: '马克思主义原理',
-      collapsible: true,
       children: [
         'principle1',
         'principle2',
@@ -83,7 +82,6 @@ export const series = {
     },
     {
       text: '毛中特',
-      collapsible: true,
       children: [
         'mzdzt1',
         'mzdzt2',
@@ -108,7 +106,6 @@ export const series = {
     },
     {
       text: '政治经济学',
-      collapsible: true,
       children: [
         'economic1',
         'economic2',

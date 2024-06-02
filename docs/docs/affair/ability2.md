@@ -3,4 +3,4 @@ title: 逻辑推理
 icon: circle-question
 ---
 
-<PDF url="/pdf/logic.pdf" height="75rem" viewer/>
+[【腾讯文档】logic.pdf](https://docs.qq.com/pdf/DRU1TeHJSTmd0Rkt0)

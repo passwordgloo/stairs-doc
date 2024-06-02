@@ -2,4 +2,4 @@
 title: 社工介绍
 ---
 
-<PDF url="/pdf/social.pdf" height="75rem"/>
+[【腾讯文档】social.pdf](https://docs.qq.com/pdf/DRXV5TXRoSEpkVUZi)

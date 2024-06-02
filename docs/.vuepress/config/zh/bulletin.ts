@@ -2,8 +2,7 @@ export const bulletin = {
   body: [
     {
       type: 'text',
-      content: `
-     pdf文档只有本地文件，以后再补在线链接`,
+      content: `联系我`,
       style: 'font-size: 18px; color: #5D67E8;'
     },
     {

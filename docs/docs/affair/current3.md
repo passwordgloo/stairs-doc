@@ -3,4 +3,4 @@ title: 重要讲话
 icon: sheriff
 ---
 
-<PDF url="/pdf/speech.pdf" height="75rem" viewer/>
+[【腾讯文档】speech.pdf](https://docs.qq.com/pdf/DRUxkQnRvSm5BamZk)

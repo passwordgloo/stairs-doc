@@ -3,4 +3,4 @@ icon: fan
 title: 社会工作实务
 ---
 
-<PDF url="/pdf/socialwork.pdf" height="75rem" viewer/>
+[【腾讯文档】socialwork.pdf](https://docs.qq.com/pdf/DRWRSRVJIaEVWdFlw)

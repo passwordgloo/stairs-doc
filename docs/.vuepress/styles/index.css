@@ -2,6 +2,10 @@ html {
   cursor: url(/light/pointer.cur), pointer;
 }
 
+h2 {
+  color: #9a5ae2;
+}
+
 h3::after {
   content: '';
   display: block;

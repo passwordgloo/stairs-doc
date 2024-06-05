@@ -2,7 +2,7 @@ import * as zhConfig from './zh'
 import * as enConfig from './en'
 
 export const themeConfig = {
-  primaryColor: '#8F41E9',
+  primaryColor: '#9a5ae2',
   locales: {
     '/': {
       selectLanguageText: '选择语言',

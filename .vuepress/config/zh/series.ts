@@ -195,7 +195,8 @@ export const series = {
         'comprehensive5',
         'comprehensive6',
         'comprehensive7',
-        'comprehensive8'
+        'comprehensive8',
+        'comprehensive9'
       ]
     },
     {

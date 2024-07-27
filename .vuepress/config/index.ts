@@ -11,7 +11,7 @@ export const themeConfig = {
       navbar: zhConfig.navbar,
       series: zhConfig.series,
       commentConfig: zhConfig.commentConfig,
-      bulletin: zhConfig.bulletin,
+      // bulletin: zhConfig.bulletin,
       editLink:false
     },
     '/en/': {

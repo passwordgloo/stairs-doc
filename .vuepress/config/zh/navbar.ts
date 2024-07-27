@@ -23,17 +23,6 @@ export const navbar = [
     ]
   },
   {
-    text: '公仆',
-    icon: 'Document',
-    children: [
-      // { text: '法律基础', link: '/docs/law' },
-      { text: '常识', link: '/docs/affair/common1' },
-      { text: '行测', link: '/docs/affair/ability1' },
-      { text: '时政', link: '/docs/affair/current1' },
-      { text: '申论', link: '/docs/affair/paper1' },
-    ],
-  },
-  {
     text: '社工',
     icon: 'Chat',
     children: [

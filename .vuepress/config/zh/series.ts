@@ -155,30 +155,6 @@ export const series = {
       ],
     }
   ],
-  '/docs/affair/': [
-    {
-      text: '常识',
-      children: ['common1', 'common2', 'common3'],
-    },
-    {
-      text: '行测',
-      children: [
-        'ability1', 'ability2', 'ability3', 'ability4', 'ability5'
-      ],
-    },
-    {
-      text: '时政',
-      children: [
-        'current1', 'current2', 'current3', 'current4', 'current5'
-      ],
-    },
-    {
-      text: '申论',
-      children: [
-        'paper1', 'paper2', 'paper3', 'paper4'
-      ],
-    },
-  ],
   '/docs/social/': [
     {
       text:'招聘',
@@ -203,6 +179,7 @@ export const series = {
       text: '实务',
       icon: 'Fire',
       children: [
+        'work',
         'work1',
         'work2',
         'work3',
